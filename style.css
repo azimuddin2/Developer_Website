@@ -191,13 +191,14 @@ section#myMission {
 .developerInfo {
     width: 50%;
     float: left;
+    margin-bottom: 70px;
 }
 
 .developerImage img {
     width: 480px;
 }
 
-.developerImageOne {position: relative;left: 130px;width: 410px;top: 121px;}
+.developerImageOne {position: relative;left: 130px;width: 410px;top: 108px;}
 
 .developerImageTwo {
     position: absolute;
@@ -207,7 +208,7 @@ section#myMission {
 
 .developerImageOne img {
     width: 70%;
-    top: 59px;
+    top: 60px;
 }
 
 .developerInfo h1 {
@@ -241,3 +242,129 @@ a#readBtn {
     border-radius: 5px;
 }
 
+.globalCommunityInfo {
+    width: 41%;
+    float: left;
+    margin-top: 300px;
+    margin-left: 230px;
+    margin-bottom: 50px;
+}
+
+.globalCommunityImage {
+    width: 45%;
+    float: right;
+}
+
+.globalCommunityOne {
+    position: relative;
+    width: 300px;
+    top: 511px;
+    left: 324px;
+}
+
+.globalCommunityTwo {
+    position: absolute;
+    width: 500px;
+    margin-top: -105px;
+}
+
+.globalCommunityTwo img {width: 100%;}
+
+.globalCommunityOne img {
+    width: 100%;
+}
+
+.globalCommunityInfom h1 {
+    font-size: 43px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.globalCommunityInfo h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.globalCommunityInfo p {
+    font-size: 18px;
+    width: 539px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    line-height: 30px;
+    color: #767676;
+    margin-bottom: 60px;
+}
+
+section#globalCommunity {
+    overflow: hidden;
+    height: 825px;
+}
+
+section#myService {
+    overflow: hidden;
+    padding: 80px 0px;
+}
+
+section#developWithout {
+    overflow: hidden;
+}
+
+.myServiceTitle {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+.myServiceBox {
+    width: 350px;
+    border: 1px solid #ddd;
+    text-align: center;
+    float: left;
+    margin-left: 52px;
+}
+
+.myServiceBox i {
+    font-size: 80px;
+    color: #e96228;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.myServiceBox h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.myServiceBox p {
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #767676;
+    line-height: 22px;
+}
+
+i#cssIcon {color: #254bdd;}
+
+span {
+    color: #ffad5a;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.footerTitle h1 {
+    font-size: 31px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.footerTitle p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
