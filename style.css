@@ -7,7 +7,7 @@
 
 .container {
     overflow: hidden;
-    width: 1140px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -18,46 +18,53 @@
 }
 
 .homeSliderImage {
-    width: 50%;
+    width: 40%;
     float: right;
 }
 
 .infoTitle {
-    border-left: 3px solid #ff5959;
-    padding-left: 6px;
+    border-left: 6px solid #ffad5a;
+    padding-left: 10px;
     font-family: 'Roboto', sans-serif;
 }
 
 .infoTitle h1 {
-    font-size: 44px;
+    font-size: 50px;
     margin-bottom: 6px;
+    margin-top: 30px;
+    text-transform: capitalize;
 }
 
 .infoTitle h2 {
-    font-size: 40px;
+    font-size: 44px;
     color: #ffad5a;
+    text-transform: capitalize;
 }
 
 .homeSliderInformation p {
-    width: 50%;
-    margin-top: 26px;
-    margin-bottom: 20px;
+    width: 85%;
+    margin-top: 30px;
+    margin-bottom: 40px;
     color: #7a7272;
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 25px;
+    font-size: 19px;
     font-family: 'Roboto', sans-serif;
 }
 
-.homeSliderImage img {width: 460px;height: 499px;}
+.homeSliderImage img {width: 400px;height: 436px;margin-top: 50px;}
 
 a#exploreBtn {
     text-decoration: none;
-    background: orange;
+    background: #ffad5a;
     color: white;
+    padding: 15px 30px;
+    border-radius: 3px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
 }
 
 section#myMission {
-    margin: 50px 0px;
+    margin: 80px 0px;
 }
 
 .myMissionTitle {
@@ -68,9 +75,9 @@ section#myMission {
 .myMissionBox {
     width: 340px;
     background: #edf5f6;
-    border-radius: 21px;
+    border-radius: 20px;
     float: left;
-    margin-right: 30px;
+    margin-right: 36px;
 }
 
 .myMissionBox img {
@@ -90,5 +97,147 @@ section#myMission {
 
 .myMissionTitle span {
     color: #ffad5a;
+}
+
+.myMissionTitle h1 {
+    font-size: 46px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    word-spacing: -2px;
+}
+
+.myMissionBox h2 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.myMissionBox p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 85%;
+    line-height: 22px;
+    color: #958e8e;
+}
+
+.myMissionBox img {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.myMissionBoxfitst {
+    width: 340px;
+    float: left;
+    background: #ffeeee;
+    border-radius: 20px;
+    margin-right: 36px;
+    padding-left: 20px;
+}
+
+.myMissionBoxfitst img {
+    width: 40%;
+    margin-top: 38px;
+}
+
+.myMissionBoxfitst p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    width: 85%;
+    line-height: 22px;
+    color: #958e8e;
+}
+
+.myMissionBoxSecend {
+    width: 340px;
+    float: left;
+    background: #fff4d6;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+
+.myMissionBoxSecend img {
+    width: 40%;
+    margin-top: 38px;
+}
+
+.myMissionBoxfitst h2 {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.myMissionBoxSecend h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.myMissionBoxSecend p {
+    line-height: 22px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 85%;
+    margin-bottom: 50px;
+    margin-top: 16px;
+    color: #958e8e;
+}
+
+.developerImage {
+    width: 50%;
+    float: left;
+}
+
+.developerInfo {
+    width: 50%;
+    float: left;
+}
+
+.developerImage img {
+    width: 480px;
+}
+
+.developerImageOne {position: relative;left: 130px;width: 410px;top: 121px;}
+
+.developerImageTwo {
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 240px;
+}
+
+.developerImageOne img {
+    width: 70%;
+    top: 59px;
+}
+
+.developerInfo h1 {
+    font-size: 46px;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 8px;
+}
+
+.developerInfo h2 {
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.developerInfo p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 24px;
+    width: 70%;
+    line-height: 27px;
+    color: #767676;
+    margin-bottom: 50px;
+}
+
+a#readBtn {
+    text-decoration: none;
+    background: #ffad5a;
+    color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
