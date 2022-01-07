@@ -7,7 +7,7 @@
 
 .container {
     overflow: hidden;
-    width: 1200px;
+    width: 1150px;
     margin: auto;
 }
 
@@ -51,13 +51,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.homeSliderImage img {width: 400px;height: 436px;margin-top: 50px;}
+.homeSliderImage img {
+    width: 400px;
+    height: 436px;
+    margin-top: 50px;
+}
 
 a#exploreBtn {
     text-decoration: none;
     background: #ffad5a;
     color: white;
-    padding: 15px 30px;
+    padding: 14px 40px;
     border-radius: 3px;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
@@ -151,7 +155,7 @@ section#myMission {
 }
 
 .myMissionBoxSecend {
-    width: 340px;
+    width: 337px;
     float: left;
     background: #fff4d6;
     border-radius: 20px;
@@ -198,7 +202,12 @@ section#myMission {
     width: 480px;
 }
 
-.developerImageOne {position: relative;left: 130px;width: 410px;top: 108px;}
+.developerImageOne {
+    position: relative;
+    left: 130px;
+    width: 410px;
+    top: 108px;
+}
 
 .developerImageTwo {
     position: absolute;
@@ -367,4 +376,65 @@ footer {
 .footerTitle p {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+}
+
+section#contactSection {
+    padding: 80px 0px;
+}
+
+.contentTitle h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea#messige {
+    display: block;
+    margin-left: 90px;
+    margin-bottom: 48px;
+    margin-top: 30px;
+    width: 1020px;
+    border-radius: 5px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input#emailBtn {
+    width: 400px;
+    padding: 18px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    margin-right: 140px;
+    margin-left: 90px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input#passwordBtn {
+    width: 400px;
+    padding: 18px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button#submitBtn {
+    text-align: center;
+    margin-left: 520px;
+    padding: 18px 44px;
+    font-size: 20px;
+    background: #ffad5a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.contentTitle h1 span {
+    margin-left: 12px;
 }
